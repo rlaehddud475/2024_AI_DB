@@ -1,1 +1,1 @@
-select * from subject_of_study s where s.afii="인문대" ;	
+select * from subject_of_study s where s.afii="인문대" OR s.afii="미대" ;	
