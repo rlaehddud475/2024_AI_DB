@@ -1,0 +1,1 @@
+SELECT * FROM EMP emp;SELECT * FROM DEPT d ;
