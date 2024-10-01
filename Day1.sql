@@ -1,1 +1,0 @@
-select * from subject_of_study s where s.afii="인문대" ;	
