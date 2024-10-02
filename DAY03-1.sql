@@ -1,0 +1,13 @@
+SELECT * FROM EMP e ,DEPT d;
+
+SELECT e.empno, e.ename,e.sal,s.GRADE FROM EMP e , SALGRADE s 
+WHERE e.SAL BETWEEN s.LOSAL AND s.HISAL ;
+
+SELECT e1.empno,e1.ename,e2.ENAME, e2.JOB FROM EMP e1,EMP e2
+WHERE e1.mgr=e2.EMPNO;
+
+
+
+SELECT d.*, e.ename FROM DEPT d ,EMP e WHERE d.DEPTNO =e.DEPTNO (+);
+SELECT e.ENAME , d.* FROM EMP e , DEPT d 
+WHERE e.DEPTNO (+) =d.DEPTNO;
